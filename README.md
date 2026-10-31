@@ -11,7 +11,7 @@ Install:
 Run:
 
 - python mesh_map.py                      # auto-detect the radio, opens http://localhost:8080
-- python mesh_map.py /dev/ttyUSB0         # Linux  (COM5 etc. on Windows)
+- python mesh_map.py --port COM3          # Something like COM3 for Windows.  Something like /dev/ttyUSB0 on Linux
 - python mesh_map.py --tcp 192.168.1.50   # radio on Wi-Fi instead of USB
 - python mesh_map.py --http-port 9000 --no-browser
 - python mesh_map.py --listen 0.0.0.0     # let other devices on your LAN view the map
